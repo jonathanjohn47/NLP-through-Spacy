@@ -31,4 +31,4 @@ top_ten_words = single_topic.argsort()[-20:] #Shows us index of elements arrange
 top_ten_words
 
 for index in top_ten_words:
-    print(cv.get_feature_names()[index])
+    print(cv.get_feature_names()[index]) 
